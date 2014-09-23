@@ -49,8 +49,8 @@ def process():
     #page 4 -- create account
     dr.find_element_by_xpath("//input[@id='UserVM_Password']").send_keys('Asdf11111') #set passport
     dr.find_element_by_xpath("//input[@id='UserVM_PasswordConfirmation']").send_keys('Asdf11111') #confirm passport
-    dr.find_element_by_xpath("//input[@id='UserVM_Email']").send_keys('test@sksc.me') # set email
-    dr.find_element_by_xpath("//input[@id='UserVM_EmailConfirmation']").send_keys('test@sksc.me') #confirm email
+    dr.find_element_by_xpath("//input[@id='UserVM_Email']").send_keys('usermail@gmail.com') # set email
+    dr.find_element_by_xpath("//input[@id='UserVM_EmailConfirmation']").send_keys('usermail@gmail.com') #confirm email
     #set preferred passport
     dr.find_element_by_xpath("//select[@id='UserVM_SecretAnswer1']").send_keys('Preferred Passport')
     #passport number
@@ -72,7 +72,7 @@ def process():
     #confirm the policy
     dr.find_element_by_xpath("//input[@id='chkIAccept']").click()
     #user name
-    dr.find_element_by_xpath("//input[@name='txtUsername']").send_keys("E0004071191")
+    dr.find_element_by_xpath("//input[@name='txtUsername']").send_keys("username")
     #passport
     dr.find_element_by_xpath("//input[@name='txtPassword']").send_keys("Asdf11111")
     #click login button
