@@ -250,6 +250,8 @@ def process():
     #page 16 EOI(12/12) Visa type summary
     dr.find_element_by_xpath("//button[@name='Submit']").click()
     
+    dr.quit()
+    
 def main():
     process()
     
