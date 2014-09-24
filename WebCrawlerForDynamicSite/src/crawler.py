@@ -223,7 +223,7 @@ def downloadImage(imageurl):
         socket = urllib2.urlopen(urllib2.Request(url))
         data = socket.read()
         socket.close()
-        file = open('/Users/SHA/Desktop/bluehost/sb/'+filename, 'w')
+        file = open('/Users/Path/'+filename, 'w')
         file.write(data)
         file.flush()
         file.close()
